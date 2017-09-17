@@ -1,0 +1,25 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:resume="http://localhost/semanticweb/resume_new2.owl#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+  <resume:Person rdf:about="http://localhost/semanticweb/resume_new2.owl#jack">
+    <resume:has_company_id>
+      <resume:PersonCompanyId rdf:about="http://localhost/semanticweb/resume_new2.owl#jacklenovo">
+        <resume:company_start>13-15-14</resume:company_start>
+        <resume:company_name>Lenovo</resume:company_name>
+      </resume:PersonCompanyId>
+    </resume:has_company_id>
+    <resume:has_company_id>
+      <resume:PersonCompanyId rdf:about="http://localhost/semanticweb/resume_new2.owl#jackmicro">
+        <resume:company_start>12-13-14</resume:company_start>
+        <resume:company_name>Microsoft</resume:company_name>
+      </resume:PersonCompanyId>
+    </resume:has_company_id>
+    <resume:link>adityakumar.com</resume:link>
+    <resume:email>adds.96@gmail.com</resume:email>
+    <resume:name>Kumar</resume:name>
+    <resume:name>Aditya</resume:name>
+  </resume:Person>
+</rdf:RDF>

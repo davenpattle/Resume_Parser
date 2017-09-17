@@ -1,0 +1,44 @@
+@prefix resume: <http://localhost/semanticweb/resume.owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+resume:piyush_mehta  a           resume:Person ;
+        resume:company_name      "Cipher Capital" , "TSMG" , "Aricent" , "Global (Inc)?" ;
+        resume:email             "mehtapiyush24@gmail.com" ;
+        resume:has_institute_id  <http://localhost/semanticweb/resume.owl#piyush_mehtaDelhi+College+of+Engineering> ;
+        resume:name              "Piyush Mehta" ;
+        resume:number            "+91 9560 457 480" ;
+        resume:positions         "Financial Analyst" , "Engineer" , "Analyst" ;
+        resume:skills            "MIS" , "Strategic Management" , "Testing" , "Financial Planning" , "Management" , "Opportunity Assessment" , "Business consulting" , "Strategy" , "Valuation" , "Financial Analysis" , "India" , "Transition Management" , "RFI" , "RFP" , "C" , "Mergers" , "Financial Risk Management" , "Business Strategy" , "Integration Testing" , "Requirements Analysis" , "GSM" , "Aerospace" , "Capital" , "Financial Risk" , "Mobile" , "business" , "Risk Management" , "Investor Relations" , "Due Diligence" , "Investment Banking" , "Projects" , "C++" , "Financial" , "Engineering" .
+
+<http://localhost/semanticweb/resume.owl#piyush_mehtaDelhi+College+of+Engineering>
+        a                        resume:PersonInstituteId ;
+        resume:institute_degree  "Bachelor of Engineering" ;
+        resume:institute_name    "Delhi College of Engineering" .
+@prefix resume: <http://localhost/semanticweb/resume.owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://localhost/semanticweb/resume.owl#vikramadtiya_shekharBirla+Institute+of+Technology>
+        a                        resume:PersonInstituteId ;
+        resume:institute_degree  "Bachelor of Engineering" ;
+        resume:institute_name    "Birla Institute of Technology" .
+
+resume:vikramadtiya_shekhar
+        a                        resume:Person ;
+        resume:company_name      "Birla (Corp)?" , "New York (Cares)?" , "Indian (Bank)?" , "New York (Community)?" , "Royal (Bank)? (of)? Scotland" , "Birla (Corporation)? (Limited)?" , "Global (Inc)?" , "Goldman Sachs (Group)?" ;
+        resume:email             "p12vikramadityas@iima.ac.in" ;
+        resume:has_institute_id  <http://localhost/semanticweb/resume.owl#vikramadtiya_shekharBirla+Institute+of+Technology> , <http://localhost/semanticweb/resume.owl#vikramadtiya_shekharIndian+Institute+of+Management%2C+Ahmedabad> ;
+        resume:name              "Vikramaditya Shekhar" ;
+        resume:number            "+91 9560305902" ;
+        resume:positions         "Member" , "Trainee" , "Associate Consultant" , "Photographer" , "Consultant" , "Major" , "Senior Associate Consultant" , "Model" , "Senior Associate" , "President" , "CEO" , "Analyst" , "Management Trainee" , "Associate" ;
+        resume:skills            "FX Options" , "Marketing" , "Project+" , "Technology" , "Strategic Management" , "Competitive Intelligence" , "LNG" , "Investments" , "Engineering" , "Procurement" , "PMO" , "Sales" , "Sourcing" , "Mathematics" , "Theory of Constraints" , "India" , "Management" , "Computer Science" , "business" , "Strategy" , "Pricing" , "Options" , "Project" , "Business Transformation" , "Market" , "Advertising" , "Project Management" , "Wealth Management" , "Finance" , "RPG" , "Consulting" .
+
+<http://localhost/semanticweb/resume.owl#vikramadtiya_shekharIndian+Institute+of+Management%2C+Ahmedabad>
+        a                        resume:PersonInstituteId ;
+        resume:institute_degree  "Post Graduate Diploma in Management" ;
+        resume:institute_name    "Indian Institute of Management, Ahmedabad" .
